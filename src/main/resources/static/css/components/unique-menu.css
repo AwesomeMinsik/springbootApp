@@ -1,0 +1,204 @@
+.unique-menu
+    .card{
+        width: 300px;
+        margin-bottom: 68px;
+        display: flex;
+        flex-direction: column;
+        color: var(--color-base-0);
+    }
+
+
+.unique-menu
+    .card
+        h1{
+            width: 300px;
+            height: 66px;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 32.69px;
+            margin: 0;
+        }
+.unique-menu
+    .card
+        div{
+            /* width: 240px; */
+            height: 180px;        
+        }
+.unique-menu
+    .card
+        img{            
+            width: inherit;
+            height: inherit;
+        }
+.unique-menu
+    .card
+        p{
+            /* font-size: 14px; */
+            font-weight: 400;            
+            width: 300px;
+            height: 42px;
+            line-height: 21px;
+            margin-top: 8px;
+            margin-bottom: 24px;
+        }
+
+
+
+/* ------ .unique-menu status ---------------- */
+.unique-menu 
+    .left-card {
+            align-items: left;
+            text-align: left;
+        }
+        
+.unique-menu 
+    .center-card {
+            align-items: center;
+            text-align: center;
+        }
+            
+.unique-menu
+        .right-card{
+            align-items: end;
+            text-align: right;
+        }
+/* ------/ .unique-menu status ---------------- */
+
+.unique-menu
+    .card
+        .fruit{
+            color: #d86259;
+        }
+.unique-menu
+    .card
+        .cookie{
+            color: #d48700;
+        }
+.unique-menu
+        .card
+            .roasting{
+                color: #944813;
+            }
+
+
+@media (min-width: 768px){
+    .unique-menu
+        .md\:card{
+            width: 370px;
+            height: 588px;
+            background-color: var(--color-base-0);
+            color:inherit;
+
+            align-items: center;
+        }
+
+    .unique-menu
+        .md\:card::before{
+            content: "";
+            display: inline-block;
+            width: 40px;
+            height: 3px;
+            background-color: var(--color-base-9);
+            margin-top: 40px;
+        }
+
+    .unique-menu
+        .md\:card
+            h1{
+                text-align: center;
+                margin-top: var(--gap-4);
+            }
+
+    .unique-menu
+        .md\:card
+            p{
+                margin-top: var(--gap-4);
+                font-size: var(--font-size-4);
+                width: 290;
+                text-align: center;
+            }
+
+    .unique-menu
+        .md\:card
+            div{
+                width: inherit;
+                height: 305px;
+                order:-1;   
+            }
+
+}
+
+/* ======================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- cards layout ------------------------------------ */
+
+.unique-menu{
+    background-color:#181614;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unique-menu::before{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background-color: var(--color-base-0);
+}
+
+.unique-menu
+    .title{
+        color:var(--color-base-1);
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+.unique-menu
+    .list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+.unique-menu
+    .list
+        .left-card{
+            align-self: flex-start;
+        }
+.unique-menu
+    .list
+        .center-card{
+            align-self: center;
+        }
+
+.unique-menu
+    .list
+        .right-card{
+            align-self: flex-end;
+        }
+
+@media (min-width: 700px){
+.unique-menu
+    .list{        
+        flex-direction: row;
+        width: 1200px;
+        justify-content: space-between;
+    }
+}

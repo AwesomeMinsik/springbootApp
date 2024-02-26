@@ -1,0 +1,25 @@
+.basket-status{
+    width: 100%;
+    height: 50px;
+    color: var(--color-base-0);
+    background-color: rgba(var(--rgb-main-3), 0.7);
+    
+    
+    position: sticky;    
+    bottom: 0px;
+}
+
+.basket-status
+    dl{
+        height: inherit;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        align-items: center;
+    }
+
+@media (min-width: 768px) {
+    
+}

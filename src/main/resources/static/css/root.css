@@ -1,0 +1,76 @@
+
+:root{
+    /* ========== color palette ===========  */
+    --rgb-base-0: 255, 255, 255;
+    --rgb-base-1: 249, 250, 251;
+    --rgb-base-2: 243, 244, 246;
+    --rgb-base-3: 229, 231, 235;
+    --rgb-base-4: 209, 213, 219;
+    --rgb-base-5: 185, 193, 207;
+    --rgb-base-6: 145, 145, 145;
+    --rgb-base-7: 75, 85, 99;
+    --rgb-base-8: 64, 64, 64;
+    --rgb-base-9: 58, 58, 58;
+    --rgb-base-10: 31, 41, 55;
+    --rgb-base-11: 17, 24, 39;
+    --rgb-base-12: 3, 7, 18;
+    --rgb-base-13: 0, 0, 0;    
+    --rgb-black: 0, 0, 0;
+    
+    --rgb-main-1: 216, 98, 89;
+    --rgb-main-2: 144, 86, 52;
+    --rgb-main-3: 94, 40, 8;
+    --rgb-main-4: 37, 20, 4;
+
+    --rgb-accent-1: 51, 77, 207;
+
+    /* base color */
+    --color-base-0: rgb(var(--rgb-base-0));
+    --color-base-1: rgb(var(--rgb-base-1));
+    --color-base-2: rgb(var(--rgb-base-2));
+    --color-base-3: rgb(var(--rgb-base-3));
+    --color-base-4: rgb(var(--rgb-base-4));
+    --color-base-5: rgb(var(--rgb-base-5));
+    --color-base-6: rgb(var(--rgb-base-6));
+    --color-base-7: rgb(var(--rgb-base-7));
+    --color-base-8: rgb(var(--rgb-base-8));
+    --color-base-9: rgb(var(--rgb-base-9));
+    --color-base-10: rgb(var(--rgb-base-10));
+    --color-base-11: rgb(var(--rgb-base-11));
+    --color-base-12: rgb(var(--rgb-base-12));
+    --color-base-13: rgb(var(--rgb-base-13));
+    --color-black: rgb(var(--rgb-base-black));
+    
+    --color-main-1: rgb(var(--rgb-main-1));
+    --color-main-2: rgb(var(--rgb-main-2));
+    --color-main-3: rgb(var(--rgb-main-3));
+    --color-main-4: rgb(var(--rgb-main-4));
+
+    --color-accent-1: rgb(var(--rgb-accent-1));
+
+    --font-size-1: 8px;
+    --font-size-2: 11px;
+    --font-size-3: 14px;
+    --font-size-4: 16px;
+    --font-size-5: 18px;
+
+    /* radius size */
+    --radius-1: 8px;
+    --radius-2: 12px;
+    --radius-3: 20px;
+
+    --icon-size-1: 16px;
+    --icon-size-2: 20px;
+    --icon-size-3: 24px;
+    --icon-size-4: 30px;
+
+    --gap-1:5px;
+    --gap-2:8px;
+    --gap-3:10px;
+    --gap-4:16px;
+    --gap-5:20px;
+    --gap-6:30px;
+    --gap-7:40px;
+
+    
+}

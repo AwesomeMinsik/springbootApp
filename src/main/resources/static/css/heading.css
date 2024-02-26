@@ -1,0 +1,93 @@
+.heading-1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size:8px;
+    color:var(--color-base-9);
+}
+
+.heading-2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size:11px;
+    color:var(--color-base-9);
+}
+
+.heading-3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size:14px;
+    color:var(--color-base-9);
+}
+
+.heading-4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size:16px;
+    color:var(--color-base-9);
+}
+
+.heading-5{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size:18px;
+    color:var(--color-base-9);
+}
+
+.heading-6{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    color:var(--color-base-9);
+}
+
+.heading-7{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size:36px;
+    color:var(--color-base-9);
+}
+
+@media (min-width: 768px) {
+    .md\:heading-1{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        font-size:8px;
+        color:var(--color-base-9);
+    }
+    
+    .md\:heading-2{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        font-size:11px;
+        color:var(--color-base-9);
+    }
+    
+    .md\:heading-3{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        font-size:14px;
+        color:var(--color-base-9);
+    }
+    
+    .md\:heading-4{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        font-size:16px;
+        color:var(--color-base-9);
+    }
+    
+    .md\:heading-5{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        font-size:18px;
+        color:var(--color-base-9);
+    }
+    
+    .md\:heading-6{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        font-size:20px;
+        color:var(--color-base-9);
+    }
+    
+}
